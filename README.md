@@ -10,4 +10,4 @@ There are a lot tools for NLP, data preprocessing, filtering and so on in the fi
 
 All sensitive and private information is moved for security reason.
 
-User can modify this project freely to scraph information involved in this system.
+User can modify this project freely to scrap information involved in this system.
