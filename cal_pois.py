@@ -269,9 +269,9 @@ class Draw_map(Tools):
 
     def work_flow_count_poi_num(self):
         try:
-            polygon_region = D.get_polygon('xiamen','districts','海沧区')
-            pois = D.get_pois('xiamen', 'poi', '医疗保健服务', 'type_1')
-            D.count_poi_num('xiamen','hotspot', '海沧区', '医疗保健服务', polygon_region, 0.001, pois, 'type_1')
+            polygon_region = D.get_polygon('','districts','')
+            pois = D.get_pois('xiamen', 'poi', '', 'type_1')
+            D.count_poi_num('xiamen','hotspot', '', '', polygon_region, 0.001, pois, 'type_1')
         except Exception as e:
             print(e)
             D.save_breakpoint_data('xiamen', D.break_point_data)
